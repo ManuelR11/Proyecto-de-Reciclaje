@@ -1,10 +1,15 @@
-import java.util.Scanner;
+
 
 /**
  * controler_main
+ * Este es el centro de operación de la aplicación
  */
-
+import java.util.Scanner;
 public class controler_main {
+    /**
+ * A continuación se instacian y se llaman a programas y importaciones que se nos seran utiles durante el proceso
+ * de solicitar o adquirir información por parte del usuario 
+ */
     public static void main(String[] args) {
         vista v = new vista();
         Scanner sc = new Scanner(System.in);
@@ -22,13 +27,11 @@ public class controler_main {
                 int insl = 0;
                 int zone = 0;
                 while (insl !=3) {
-                    
-                
                 v.inmenu();
                 insl = sc.nextInt();
                 if (insl == 1) {
                 v.location();
-                zone = sc.nextInt();
+                zone = da.zone();
                 if (zone == 1) {
                     da.zone1();
                 }
