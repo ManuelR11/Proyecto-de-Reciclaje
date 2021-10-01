@@ -29,7 +29,7 @@ public class datos {
     ArrayList<String> Zona23 = new ArrayList<>();
     public void arranque() {
         Zona12.add("- Vical, de, Av. Petapa 48-01, Cdad. de Guatemala 01012, +502 2422 6400");
-        Zona9.add("- Recipa, 3 Avenida 2-16 Zona 9 Ciudad de Guatemala, 01009, +502 2491 5050 ");
+        Zona9.add("- Recipa, 3 Avenida 2-16 Zona 9 Ciudad de Guatemala, 01009, +502 2491 5050 "); // centros de reciclaje 
     }
     public int zone() {
         int zona; 
