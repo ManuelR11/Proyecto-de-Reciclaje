@@ -23,6 +23,7 @@ public class vista {
         System.out.println("Ingrese el número de la acción que quiere realizar a continuación");
         System.out.println("1.Buscar un centro de reciclaje cercano a mi ubicación");
         System.out.println("2.Buscar documentación sobre el el uso de las recicladoras y su importancia");
+        System.out.println("3.salir");
     }
     public void location() {
         System.out.println("ingrese la zona en la que se encuentra actualmente para que le podamos dar la información sobre los lugares en esa zona a las que puede acudir");
