@@ -1,12 +1,7 @@
+import java.util.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-/**
- * datos
- * Este es el centro de manejo de base de datos principal de la aplicación
- * aquí se almacena y se produce diferentes formas de dar o aguardar las localisaciones 
- * principales de centros de recliclaje.
- */
 public class datos {
     Scanner sc = new Scanner(System.in);
     ArrayList<String> Zona1 = new ArrayList<>();
@@ -32,30 +27,15 @@ public class datos {
     ArrayList<String> Zona21 = new ArrayList<>();
     ArrayList<String> Zona22 = new ArrayList<>();
     ArrayList<String> Zona23 = new ArrayList<>();
-    /**
-     * arranque();
-    * Este proceso se usa para poder agregar e iniciar las listas de Arraylist que en un inicio estan vacias y 
-        sin ningun dato importante
-     */
     public void arranque() {
         Zona12.add("- Vical, de, Av. Petapa 48-01, Cdad. de Guatemala 01012, +502 2422 6400");
         Zona9.add("- Recipa, 3 Avenida 2-16 Zona 9 Ciudad de Guatemala, 01009, +502 2491 5050 "); // centros de reciclaje 
     }
-    /**
-    * Zone()
-    * Este recive la zona y registra la zona en la cual el usuario solicita la información
-    * Regresa la zona solicitada
-    */
     public int zone() {
         int zona; 
         zona = sc.nextInt();
         return zona;
     }
-    /**
-    * zone1() - zone23()
-    * Estos preocesos desliegan en lista los elementos de toda la lista a la que se le solicita, eso queiere decir
-        que regresa lo que es la informaicón de toda la zona solicitada
-    */
     public void zone1() {
         for(int i = 0; i < Zona1.size(); i++) {
             System.out.println(Zona1.get(i));
