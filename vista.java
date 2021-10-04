@@ -4,13 +4,22 @@ import java.util.Scanner;
  * Esta clase funje una función meramente estetica para poder solicitar, agregar o decirle al usuario lo que se necesite
  */
 public class vista {
+    public static final String ANSI_RESET = "\u001B[0m";
+    public static final String ANSI_RED = "\u001B[31m";
+    public static final String ANSI_BLACK = "\u001B[30m";
+    public static final String ANSI_GREEN = "\u001B[32m";
+    public static final String ANSI_YELLOW = "\u001B[33m";
+    public static final String ANSI_BLUE = "\u001B[34m";
+    public static final String ANSI_PURPLE = "\u001B[35m";
+     public static final String ANSI_CYAN = "\u001B[36m";
+    public static final String ANSI_WHITE = "\u001B[37m";
     Scanner sc = new Scanner(System.in);
     /**
      * saludo()
      * Un saludo el cual presenta el programa y diga lo que es
     */
     public void saludo() {
-        System.out.println(" --- Hola y bienvenido al sistema de apoyo de reciclaje ---");
+        System.out.println(ANSI_RED + " --- Hola y bienvenido al sistema de apoyo de reciclaje ---" + ANSI_RESET);
     }
     /**
     * menu()
@@ -51,7 +60,7 @@ public class vista {
     public void inmenu() {
         System.out.println("Ingrese el número de la acción que quiere realizar a continuación");
         System.out.println("1.Buscar un centro de reciclaje cercano a mi ubicación");
-        System.out.println("2.Buscar documentación sobre el el uso de las recicladoras y su importancia");
+        System.out.println("2.Creditos");
         System.out.println("3.salir");
     }
     /**
@@ -61,5 +70,43 @@ public class vista {
     public void location() {
         System.out.println("ingrese la zona en la que se encuentra actualmente para que le podamos dar la información sobre los lugares en esa zona a las que puede acudir");
 
+    }
+    public void creditos() {
+        System.out.println("----------- Programa de encuentra y resolución de dudas sobre centros de reciclaje--------");
+        System.out.println("Un programa hecho por:");
+        try {
+            //Ponemos a "Dormir" el programa durante los ms que queremos
+            Thread.sleep(3*1000);
+         } catch (Exception e) {
+            System.out.println(e);
+         }
+         System.out.println(ANSI_GREEN + " Andres Chivalan" + ANSI_RESET);
+         try {
+            //Ponemos a "Dormir" el programa durante los ms que queremos
+            Thread.sleep(3*1000);
+         } catch (Exception e) {
+            System.out.println(e);
+         }
+         System.out.println(ANSI_PURPLE + " Manuel Rodas"+  ANSI_RESET);
+         try {
+            //Ponemos a "Dormir" el programa durante los ms que queremos
+            Thread.sleep(3*1000);
+         } catch (Exception e) {
+            System.out.println(e);
+         }
+         System.out.println(" Sebastian Juarez");
+         try {
+            //Ponemos a "Dormir" el programa durante los ms que queremos
+            Thread.sleep(3*1000);
+         } catch (Exception e) {
+            System.out.println(e);
+         }
+         System.out.println(ANSI_CYAN + " Alejando Erales" + ANSI_RESET);
+         try {
+            //Ponemos a "Dormir" el programa durante los ms que queremos
+            Thread.sleep(3*1000);
+         } catch (Exception e) {
+            System.out.println(e);
+         }
     }
 }

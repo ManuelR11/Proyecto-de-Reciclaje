@@ -32,77 +32,32 @@ public class controler_main {
                 if (insl == 1) {
                 v.location();
                 zone = da.zone();
-                if (zone == 1) {
-                    da.zone1();
-                }
-                if (zone == 2) {
-                    da.zone2();
-                }
                 if (zone == 3) {
                     da.zone3();
-                }
-                if (zone == 4) {
-                    da.zone4();
-                }
-                if (zone == 5) {
-                    da.zone5();
                 }
                 if (zone == 6) {
                     da.zone6();
                 }
-                if (zone == 7) {
-                    da.zone7();
-                }
-                if (zone == 8) {
-                    da.zone8();
-                }
                 if (zone == 9) {
                     da.zone9();
-                }
-                if (zone == 10) {
-                    da.zone10();
-                }
-                if (zone == 11) {
-                    da.zone11();
                 }
                 if (zone == 12){
                     da.zone12();
                 }
-                if (zone == 13) {
-                    da.zone13();
-                }
                 if (zone == 14) {
                     da.zone14();
-                }
-                if (zone == 15) {
-                    da.zone15();
-                }
-                if (zone == 16) {
-                    da.zone16();
-                }
-                if (zone == 17) {
-                    da.zone17();
                 }
                 if (zone == 18) {
                     da.zone18();
                 }
-                if (zone == 19) {
-                    da.zone19();
-                }
-                if (zone == 20) {
-                    da.zone20();
-                }
-                if (zone == 21) {
-                    da.zone21();
-                }
-                if (zone == 22) {
-                    da.zone22();
-                }
-                if (zone == 23) {
-                    da.zone23();
+                else {
+                    System.out.println("No hay mas lugares en la zona referida");
                 }
                 System.out.println("precione enter para continuar");
                 sc.nextLine();
+                }
+                if (insl == 2) {
+                   v.creditos();
                 }
             }
         }
