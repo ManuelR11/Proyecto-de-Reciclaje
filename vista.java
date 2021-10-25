@@ -27,51 +27,63 @@ public class vista {
         el programa
     */
     public void menu() {
-        System.out.println("Ingrese usuario o registrese");
-        System.out.println("1. ingresar");
-        System.out.println("2.Registrarse");
-        System.out.println("3.salir");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println(ANSI_YELLOW + "Ingrese usuario o registrese"+ ANSI_RESET);
+        System.out.println(ANSI_YELLOW +"1. ingresar"+ ANSI_RESET);
+        System.out.println(ANSI_YELLOW +"2.Registrarse"+ ANSI_RESET);
+        System.out.println(ANSI_YELLOW +"3.salir"+ ANSI_RESET);
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     }
     /**
     * register()
     * Este solicita un nombre de usuario con el cual sera llamado más adelante
     */
     public void register() {
-        System.out.println("Inserte un nombre de usuario ");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println(ANSI_RED + "Inserte un nombre de usuario "+ ANSI_RESET);
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     }
     /**
     * ask()
     * Este solicita un nombre de usuarío valido para ingrsar
     */
     public void ask() {
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         System.out.println("Ingrese su nombre de usuario");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     }
     /**
     * login()
     * Este indica que se ha ingresado correctamente
     */
     public void login() {
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         System.out.println("Sea ingresado correctamente");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     }
     /**
     * inmenu()
     * Este hace de un submenú del cual este da 3 opciónes más
     */
     public void inmenu() {
-        System.out.println("Ingrese el número de la acción que quiere realizar a continuación");
-        System.out.println("1.Buscar un centro de reciclaje cercano a mi ubicación");
-        System.out.println("2.Creditos");
-        System.out.println("3.salir");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println(ANSI_YELLOW +"Ingrese el número de la acción que quiere realizar a continuación"+ ANSI_RESET);
+        System.out.println(ANSI_YELLOW +"1.Buscar un centro de reciclaje cercano a mi ubicación"+ ANSI_RESET);
+        System.out.println(ANSI_YELLOW +"2.Creditos"+ ANSI_RESET);
+        System.out.println(ANSI_YELLOW +"3.salir"+ ANSI_RESET);
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     }
     /**
     * location()
     * Este solicita la zona de la cual quiere saber la información
     */
     public void location() {
-        System.out.println("ingrese la zona en la que se encuentra actualmente para que le podamos dar la información sobre los lugares en esa zona a las que puede acudir");
-
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println(ANSI_RED +"ingrese la zona en la que se encuentra actualmente para que le podamos dar la información sobre los lugares en esa zona a las que puede acudir"+ ANSI_RESET);
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     }
     public void creditos() {
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         System.out.println("----------- Programa de encuentra y resolución de dudas sobre centros de reciclaje--------");
         System.out.println("Un programa hecho por:");
         try {
@@ -102,6 +114,7 @@ public class vista {
             System.out.println(e);
          }
          System.out.println(ANSI_CYAN + " Alejando Erales" + ANSI_RESET);
+         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
          try {
             //Ponemos a "Dormir" el programa durante los ms que queremos
             Thread.sleep(3*1000);

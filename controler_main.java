@@ -1,5 +1,4 @@
 
-
 /**
  * controler_main
  * Este es el centro de operación de la aplicación
@@ -53,7 +52,7 @@ public class controler_main {
                 else {
                     System.out.println("No hay mas lugares en la zona referida");
                 }
-                System.out.println("precione enter para continuar");
+                System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                 sc.nextLine();
                 }
                 if (insl == 2) {
