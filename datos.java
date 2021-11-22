@@ -21,12 +21,12 @@ public class datos implements IntDatos{
      */
     @Override
     public void arranque() {
-        Zona12.add("- Vical, de, Av. Petapa 48-01, Cdad. de Guatemala 01012, +502 2422 6400");
-        Zona9.add("- Recipa, 3 Avenida 2-16 Zona 9 Ciudad de Guatemala, 01009, +502 2491 5050 "); 
-        Zona14.add("- Scrapex, 5ta Avenida 5-55, Edificio Europlaza, Torre 1 Nivel 2 Zona 14 ciudad de Guatemala, +502 2386 9999");
-        Zona6.add("- La Joya, 1 Calle 1-85 Zona 6 Col Alamos San Miguel Petapa, + 502 2448 1286 ");
-        Zona18.add("- Red Ecologica, Kilómetro 8 Carretera al Atllántico, Zona 18, Ciudad de Guatemala, +502 2301-1500");
-       Zona3.add("- Interfisa, 7a. Avenida 39-26, zona 3, Guatemala, +502 5834-5723"); // centros de reciclaje 
+        Zona12.add("-Nombre: Vical          Dirección: Av. Petapa 48-01, Cdad. de Guatemala 01012,      Contacto: +502 2422 6400      Descripción: VICAL es una sociedad centroamericana, toma la iniciativa de desarrollar Por un mundo limpio como el vidrio, a través de la cual se brinda a los consumidores y público en general información útil y valiosa sobre los beneficios y los impacto del uso de vidrio para la salud y el medio ambiente, así como para la economía del hogar y detalles de los programas de reciclaje.      Horas: Abierto de 8am a 5pm entre semana y el sábado de 8am a 1pm.");
+        Zona9.add("- Nombre: Recipa     Dirección: 3 Avenida 2-16 Zona 9 Ciudad de Guatemala, 01009,        Contacto: +502 2491 5050        Descripción: Recipa es una empresa dedicada al reciclaje de distintos materiales como metal, plástico, papel, cartón y vidrio, que pueden ser reutilizados como materia prima para nuevos productos.        Horas: Abierto de 8am a 5pm entre semana y el sábado de 8am a 12pm. "); 
+        Zona14.add("- Nombre: Scrapex       Dirección: 5ta Avenida 5-55, Edificio Europlaza, Torre 1 Nivel 2 Zona 14 ciudad de Guatemala,       Contacto: +502 2386 9999        Descripción: Scrapex es una organización que se dedica al reciclaje de materiales como metal, baterías, electrónicos, luminarias, aceites y otros materiales.       Horas: Abierto de 7am a 5pm entre semana");
+        Zona6.add("- Nombre: La Joya        Dirección: 1 Calle 1-85 Zona 6 Col Alamos San Miguel Petapa,        Contacto: + 502 2448 1286       Descripción: Recicladora La Joya es una empresa que se dedica al reciclaje de plástico. Compra y venta de desechos de papel, cartón y otros materiales reciclables.     Horas: Abierto de 8am a 5pm entre semana y el sábado de 8am a 12pm ");
+        Zona18.add("- Nombre: Red Ecologica     Dirección: Kilómetro 8 Carretera al Atlántico, Zona 18, Ciudad de Guatemala,        Contacto: +502 2301 1500        Descripción: Red Ecológica es una empresa profesional, especializada en la recuperación y reciclaje de papel.       Horas: Abierto de 8am a 4pm entre semana");
+       Zona3.add("- Nombre: Interfisa, 7a. Avenida 39-26, zona 3, Guatemala,        Contacto: +502 5834-5723        Descripción: Interfisa es una empresa profesional, especializada en la recuperación y reciclaje de papel, cartón y plástico.        Horas: Abierto de 8am a 5pm entre semana y el sábado de 8am a 11:30pm"); // centros de reciclaje 
     }
     /**
     * Zone()
